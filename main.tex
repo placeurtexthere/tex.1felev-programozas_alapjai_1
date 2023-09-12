@@ -1,12 +1,24 @@
 \documentclass[12pt, a4paper]{article}
-\title{Not my first LaTeX document}
-\author{Illyés Dávid\thanks{Thanks to my Mom}}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{subcaption}
+
+
+\title{Programozás alapjai 1 összefoglaló}
+\author{Illyés Dávid}
 \date{\today}
 \begin{document}
 \maketitle
 
 
-A jegyzet fő célja, hogy olyan módon adja át a "A Programozás Alapjai 1" nevű tárgy anyagát, hogy az teljesen kezdők számára is könnyen megtanulható legyen.
+\noindent\fbox{%
+    \parbox{\textwidth}{
+		Ez  a jegyzet nagyon hasonlóan van struktúrálva az előadás jegyzetekhez és fő célja, hogy olyan módon adja át a "A Programozás Alapjai 1" nevű tárgy anyagát, hogy az teljesen kezdők számára is könnyen megérthető és megtanulható legyen. 
+    }
+}
+
+
+\section{előadás}
 
 Ami itt kimarad:
 1.előadás 2.fejezet - Alapfogalmak Imperatív
@@ -24,20 +36,17 @@ Algoritmusok leírási nyelvfüggetlen leírási módja a pszeudokód (álkód),
 
  IDE JÖHET EGY EGYSZERŰ PÉLDA 
 
-Algoritmusok grafikus ábrázolásának eszköze a folyamatábra
+Algoritmusok grafikus ábrázolásának eszköze a folyamatábra.
 Egy be- és kimenetű program folyamatábrája START és STOP  elemek között helyezkedik el
 
 IDE KELL EGY ÁBRA 
 
 A folyamatábra az alábbi elemekből épül fel
 
-\begin{center}
-\begin{tabular}{ c c c }
- cell1 & cell2 & cell3 \\ 
- cell4 & cell5 & cell6 \\  
- cell7 & cell8 & cell9    
-\end{tabular}
-\end{center}
+
+\includegraphics[scale= 0.2]{screen}
+\caption{screen shot}
+
 
  IDE KELL EGY ÁBRA 
 
@@ -59,6 +68,41 @@ Változónak hívunk egy névvel ellátott értéket hordozó adattagot. Egy vá
 
 Ezekre egy egy példa:
 Egy konstans változó lehet egy születési dátum, hiszen az egy adott pont az időben és nem lehet felülírni, pont ahogy egy konstans változót sem.
+
+\section{előadás}
+
+\begin{itemize}
+	\item Szám:
+	\begin{itemize}
+		\item Értéke lehet: 0, -1, $e$, $\pi$
+		\item Műveletek: összeadás, kivonás, összehasonlítás, rendezés
+		\item Kiiratási kódja: %d
+	\end{itemize}
+	\item Betű:
+	\begin{itemize}
+		\item Értéke lehet: 0, -1, $e$, $\pi$
+		\item Műveletek: összeadás, kivonás, összehasonlítás, rendezés
+		\item Kiiratási kódja: %d
+	\end{itemize}
+	\item Logikai:
+	\begin{itemize}
+		\item Értéke lehet: 0, -1, $e$, $\pi$
+		\item Műveletek: összeadás, kivonás, összehasonlítás, rendezés
+		\item Kiiratási kódja: %d
+	\end{itemize}
+	\item Szín:
+	\begin{itemize}
+		\item Értéke lehet: 0, -1, $e$, $\pi$
+		\item Műveletek: összeadás, kivonás, összehasonlítás, rendezés
+		\item Kiiratási kódja: %d
+	\end{itemize}
+	\item Hőmérséklet:
+	\begin{itemize}
+		\item Értéke lehet: 0, -1, $e$, $\pi$
+		\item Műveletek: összeadás, kivonás, összehasonlítás, rendezés
+		\item Kiiratási kódja: %d
+	\end{itemize}
+\end{itemize}
 
 
 \begin{itemize}
