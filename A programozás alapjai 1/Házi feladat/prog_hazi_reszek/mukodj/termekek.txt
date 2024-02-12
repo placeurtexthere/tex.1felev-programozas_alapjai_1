@@ -1,0 +1,20 @@
+1 500.0 húsleves
+2 15000.0 gérvágó
+3 1000.0 kukazsák
+4 533.5 levegő
+5 748.4 hell energia ital 
+6 6584.23 laptop
+7 6139.345 kávé
+8 23.2 dianás cukor
+9 2374.34 műzli
+10 1245.245 pohár
+11 8399.45 víz
+12 12345.843 föld 
+13 120003.234 vas
+14 47593.34 minecraft biblia
+15 749.2 doboz
+16 859.23 örök boldogság 
+17 73485.3 word
+18 5638.35 a tizen hatos szám
+42 42 42
+20 7539.23 só
